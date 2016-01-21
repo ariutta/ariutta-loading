@@ -26,7 +26,7 @@ Then you just need to reference `ariutta-loading.css` from your HTML page and ad
   <body>
     <div class="my-element-parent-selector">
       <div class="ariutta-loading">
-        <!-- when your content has loaded, remove the ariutta loading class -->
+        <!-- when your content has loaded, remove the ariutta-loading class -->
       </div>
     </div>
   </body>
