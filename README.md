@@ -3,7 +3,7 @@ Simple loading style CSS
 
 ## How To Use
 
-The parent of the element that will contain your content must have the following styles set:
+The parent of your content container element must have the following styles set:
 
 ```css
 .my-element-parent-selector {
@@ -13,7 +13,9 @@ The parent of the element that will contain your content must have the following
 }
 ```
 
-Then you just need to reference `ariutta-loading.css` from your HTML page and add the class `ariutta-loading` to your content container element:
+### Option 1: Add via HTML
+
+Reference `ariutta-loading.css` from your HTML page and add the class `ariutta-loading` to your content container element:
 
 ```html
 <!DOCTYPE html>
@@ -34,12 +36,12 @@ Then you just need to reference `ariutta-loading.css` from your HTML page and ad
 </html>
 ```
 
-To add via JS, simply require this module:
+### Option 2: Add via JS
 
-```js
-require('ariutta-loading');
-```
+1. Install: `npm install --save ariutta-loading`
+2. Require this module: `require('ariutta-loading');`
+3. Set the `ariutta-loading` class on your content container element
 
-# Acknowledgments
+## Acknowledgments
 
 Thanks to https://github.com/lukehaas/css-loaders for CSS used as starting point.
