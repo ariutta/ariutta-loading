@@ -26,7 +26,7 @@ Reference `ariutta-loading.css` from your HTML page and add the class `ariutta-l
   </head>
 
   <body>
-    <div class="my-element-parent-selector">
+    <div style="display: flex; align-items: center; justify-content: center;">
       <div class="ariutta-loading">
         <!-- when your content has loaded, remove the ariutta-loading class -->
       </div>
@@ -40,7 +40,7 @@ Reference `ariutta-loading.css` from your HTML page and add the class `ariutta-l
 
 1. Install: `npm install --save ariutta-loading`
 2. Require this module: `require('ariutta-loading');`
-3. Set the `ariutta-loading` class on your content container element
+3. Set the `ariutta-loading` class on your content container element (be sure parent element styles are set as specified above)
 
 ## Acknowledgments
 
