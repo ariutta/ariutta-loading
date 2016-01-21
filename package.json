@@ -4,7 +4,8 @@
   "description": "Simple loading style CSS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "echo 'View demo at http://localhost:3000/demo.html' && simple-server . 3000"
   },
   "browserify": {
     "transform": [
@@ -28,7 +29,8 @@
   "homepage": "https://github.com/ariutta/ariutta-loading#README.md",
   "devDependencies": {
     "brfs": "^1.4.3",
-    "deglobalify": "^0.2.0"
+    "deglobalify": "^0.2.0",
+    "simple-server": "^1.0.1"
   },
   "dependencies": {
     "insert-css": "^0.2.0"

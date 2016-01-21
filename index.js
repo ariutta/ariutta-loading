@@ -1,3 +1,4 @@
+'use strict';
 var fs = require('fs');
 var insertCss = require('insert-css');
 module.exports = (function() {

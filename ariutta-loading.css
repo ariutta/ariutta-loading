@@ -1,4 +1,4 @@
-/* thanks to https://github.com/lukehaas/css-loaders for CSS used as starting point */
+/* Thanks to https://github.com/lukehaas/css-loaders for CSS used as starting point */
 
 .ariutta-loading {
   margin: 60px auto !important;
@@ -9,9 +9,9 @@
   border-right: 1.1em solid rgba(221,221,221, 0.4) !important;
   border-bottom: 1.1em solid rgba(221,221,221, 0.4) !important;
   border-left: 1.1em solid #cccccc !important;
-  -webkit-transform: translateZ(0) !important;
-  -ms-transform: translateZ(0) !important;
-  transform: translateZ(0) !important;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
   -webkit-animation: load8 1.1s infinite linear;
   animation: load8 1.1s infinite linear;
 }
